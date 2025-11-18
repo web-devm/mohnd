@@ -52,4 +52,4 @@ jobs:
           app-name: 'moftest10'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B34D3114C7784354ABD2BE2BAF5A3ACC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_684C725611A34EA4AC96E0612AE9CA78 }}
