@@ -53,7 +53,8 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'nextjs-appservice-demo'
+          app-name: 'mof-yemen'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6918DA9FE89C484E8FE1DCE98899ECC4 }}
           package: .
+
